@@ -1,0 +1,155 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color:  white; /* rgb(253, 238, 156);*/
+    font-size: 20px;
+    overflow-x:hidden;
+}
+
+#banner {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 1250px;
+    z-index: -1;
+}
+
+section img {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    
+   /* min-width: 40%; */
+    max-width: 500px;
+
+}
+
+header {
+    height: 515px;
+    text-align: center;
+}
+
+#title {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: relative;
+    color: white;
+    padding-top: 120px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#crest {
+    padding-top: 20px;
+
+}
+
+#about {
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    background-color: white;  
+}
+
+#philanthropy {
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    background-color: rgb(250, 250, 250);
+    
+}
+
+#eboard {
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    background-color: white;
+    
+}
+
+#eboard img {
+    width: 200px;
+    border-radius: 50%; 
+
+}
+
+.eboardmember {
+    text-align: center;
+    width: 300px;
+    padding-top: 15px;
+}
+
+#eboardflex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+ .eboardmember h4, .eboardmember h5 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.eboardmember h5 {
+    font-style: italic;
+    color: gray;
+}
+
+#contact {
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    background-color: rgb(250, 250, 250);
+    text-align: center;  
+}
+
+#contact p {
+    font-style: italic;
+    color: gray;
+}
+
+section h2 {
+    font-size: 200%;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+
+}
+
+footer{
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    background-color: white;
+    
+}
+a {
+    text-decoration: none;
+}
+
+#socialmedia {
+    text-align: center;
+    padding-top: 20px;
+
+}
+section, footer {
+    margin-top: 0px;
+    text-align: center;
+}
+
+footer > img{
+    width: 100px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+
+}
